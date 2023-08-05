@@ -10,7 +10,6 @@
     margin-inline: auto;
     gap: 30rem;
     margin-top: 85rem;
-
   }
 
   &__title {
@@ -128,6 +127,10 @@
     font-size: 14rem;
     font-weight: 400;
     text-transform: uppercase;
-  }
 
+    &:hover {
+      background: transparent;
+      color: var(--c-btn-secondary);
+    }
+  }
 }
