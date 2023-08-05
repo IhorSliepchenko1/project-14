@@ -1,0 +1,52 @@
+.download-section {
+  background: var(--c-btn-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 95rem 0 95rem 0;
+  gap: 125rem;
+
+  @include desktop-small {
+    display: grid;
+  }
+
+  &__info {
+    max-width: 445rem;
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 36;
+    font-weight: 600;
+    margin-bottom: 24rem;
+    @include desktop-small {
+      text-align: center;
+    }
+  }
+
+  &__desc {
+    color: #fff;
+    text-align: justify;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 40rem;
+    @include desktop-small {
+      text-align: center;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    gap: 23rem;
+    @include desktop-small {
+      justify-content: center;
+    }
+  }
+
+  &__image {
+    img {
+      max-width: 445rem;
+    }
+  }
+}

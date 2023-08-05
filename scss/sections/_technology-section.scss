@@ -1,0 +1,45 @@
+.technology-section {
+  margin-bottom: 108px;
+}
+
+.technology-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: 30rem;
+}
+.technology-item {
+  &__counter {
+    color: rgba(16, 16, 16, 0.08);
+    font-size: 100rem;
+    font-weight: 700;
+    margin-bottom: 19rem;
+    position: relative;
+    text-align: center;
+
+    img {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 60rem;
+      max-width: 70rem;
+      max-height: 70rem;
+    }
+  }
+
+  &__title {
+    color: var(--c-tech-desc);
+    font-size: 18rem;
+    font-weight: 700;
+    margin-bottom: 10rem;
+    text-align: center;
+  }
+
+  &__desc {
+    color: var(--c-black);
+    font-size: 12rem;
+    font-weight: 400;
+    text-align: center;
+    max-width: 191rem;
+    margin-inline: auto;
+  }
+}
